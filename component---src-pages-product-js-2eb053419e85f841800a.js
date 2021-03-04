@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{Cdlu:function(t,c,e){"use strict";e.r(c);e("q1tI");var n=e("Bl7J"),u=e("vrFN"),i=e("AeFk");c.default=function(){return Object(i.c)(n.a,null,Object(i.c)(u.a,{title:"Product"}),Object(i.c)("h1",null,"This is the Product Page."))}}}]);
+//# sourceMappingURL=component---src-pages-product-js-2eb053419e85f841800a.js.map

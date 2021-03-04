@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{aa2x:function(t,c,e){"use strict";e.r(c);e("q1tI");var n=e("Bl7J"),a=e("vrFN"),u=e("AeFk");c.default=function(){return Object(u.c)(n.a,null,Object(u.c)(a.a,{title:"Whyauctm"}),Object(u.c)("h1",null,"This is the Why-Auctm Page."))}}}]);
+//# sourceMappingURL=component---src-pages-why-auctm-js-c67c9793f1301a094d4e.js.map
