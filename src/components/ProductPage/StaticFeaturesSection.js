@@ -6,7 +6,7 @@ import StaticFeaturesCarousel from 'components/_ui/StaticFeaturesCarousel'
 import StaticFeatureCard from 'components/_ui/StaticFeatureCard'
 import dimensions from 'styles/dimensions'
 import PropTypes from 'prop-types'
-import { Parallax } from 'react-scroll-parallax'
+// import { Parallax } from 'react-scroll-parallax'
 
 const MainContainer = styled.div`
     padding: 5rem 8rem 10rem 8rem;
@@ -76,16 +76,16 @@ export default function StaticProductFeatures ({ data }) {
             <h1>{staticFeaturesTitle}</h1>
             {/* <p>{staticFeaturesSubTitle}</p> */}
           </HeadingContainer>
-          <Parallax y={['-30px', '30px']}>
+          {/* <Parallax y={['-30px', '30px']}> */}
             <FeaturesList>
               {
                 staticFeatures.map((item, idx) => <StaticFeatureCard key={idx} data={item} />)
               }
             </FeaturesList>
-          </Parallax>
-          <Parallax y={['-30px', '30px']}>
+          {/* </Parallax>
+          <Parallax y={['-30px', '30px']}> */}
             <StaticFeaturesCarousel data={staticFeatures} />
-          </Parallax>
+          {/* </Parallax> */}
         </MainContainer>
       </Container>
     </Section>

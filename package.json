@@ -46,7 +46,7 @@
         "react-responsive-carousel": "^3.2.9",
         "react-router-dom": "^5.0.0",
         "react-router-hash-link": "^1.2.1",
-        "react-scroll-parallax": "^2.3.4",
+        "react-scroll-parallax": "^2.3.5",
         "react-slick": "^0.27.11",
         "react-text-rotator": "^0.1.1",
         "slick-carousel": "^1.8.1",

@@ -4,7 +4,7 @@ import dimensions from 'styles/dimensions'
 import PropTypes from 'prop-types'
 import LinkCustom from '../_ui/Link'
 // import TextRotator from '../_ui/TextRotator'
-import { Parallax } from 'react-scroll-parallax'
+// import { Parallax } from 'react-scroll-parallax'
 import ArrowWhite from 'images/arrow_white.svg'
 import { useInView } from 'react-intersection-observer'
 
@@ -266,7 +266,7 @@ export default function VideoPlayer ({ data }) {
     <>
 
       <FeaturePlayer ref={ref}>
-        <Parallax y={['-20px', '20px']}>
+        {/* <Parallax y={['-20px', '20px']}>
           {
             data.map((item, idx) => {
               if (idx === activeVideo) {
@@ -288,6 +288,7 @@ export default function VideoPlayer ({ data }) {
             })
           }
         </Parallax>
+        */}
         <SpecialTextContainer>
           {/* {
             data.map((item, idx) => {
@@ -340,7 +341,7 @@ export default function VideoPlayer ({ data }) {
               data-sal-duration='400'
               data-sal-easing='ease-in-out'
             >
-              <Parallax y={['-20px', '20px']}>
+              {/* <Parallax y={['-20px', '20px']}> */}
                 <Video
                   key={idx}
                   ref={videoRef}
@@ -371,7 +372,7 @@ export default function VideoPlayer ({ data }) {
                   </div>
                   <LinkCustom showArrow href='/product/#df'>Learn More</LinkCustom>
                 </FeatureCard>
-              </Parallax>
+              {/* </Parallax> */}
             </FeatureCardWrapper>
           })
         }

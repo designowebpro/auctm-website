@@ -9,7 +9,7 @@ import BGLeftThree from 'images/bg-why-auctm-3.svg'
 import IllustrationLeftOne from 'images/illustration-why-auctm-1.svg'
 import IllustrationRightTwo from 'images/illustration-why-auctm-2.svg'
 import IllustrationLeftThree from 'images/illustration-why-auctm-3.svg'
-import { Parallax } from 'react-scroll-parallax'
+// import { Parallax } from 'react-scroll-parallax'
 import PropTypes from 'prop-types'
 
 const SectionContainer = styled.div`
@@ -188,7 +188,7 @@ export default function FeaturesSection ({ data }) {
         <BGLeft src={BGLeftOne} alt='Why Auctm - Background Element Left' aria-label='Why Auctm - Background Element Left' />
         <Container>
           <SectionContainer>
-            <Parallax y={['-20px', '20px']}>
+            {/* <Parallax y={['-20px', '20px']}> */}
               <ImgContainer
                 data-sal='slide-right'
                 data-sal-delay='0'
@@ -198,7 +198,7 @@ export default function FeaturesSection ({ data }) {
               >
                 <img src={IllustrationLeftOne} alt='Why Auctm - Illustration Confused' aria-label='Why Auctm - Illustration Confused' />
               </ImgContainer>
-            </Parallax>
+            {/* </Parallax> */}
             <TextContainer
               data-sal='slide-left'
               data-sal-delay='0'
@@ -221,7 +221,7 @@ export default function FeaturesSection ({ data }) {
         <BGRight src={BGRightTwo} alt='Why Auctm - Background Element Right' aria-label='Why Auctm - Background Element Right' />
         <Container>
           <SectionContainer className='reverse'>
-            <Parallax y={['-20px', '20px']}>
+            {/* <Parallax y={['-20px', '20px']}> */}
               <ImgContainer
                 data-sal='slide-left'
                 data-sal-delay='0'
@@ -231,7 +231,7 @@ export default function FeaturesSection ({ data }) {
               >
                 <img className='right' src={IllustrationRightTwo} alt='Why Auctm - Illustration Dashboard' aria-label='Why Auctm - Illustration Dashboard' />
               </ImgContainer>
-            </Parallax>
+            {/* </Parallax> */}
             <TextContainer
               data-sal='slide-right'
               data-sal-delay='0'
@@ -254,7 +254,7 @@ export default function FeaturesSection ({ data }) {
         <BGLeftSecond src={BGLeftThree} alt='Why Auctm - Background Element Left' aria-label='Why Auctm - Background Element Left' />
         <Container>
           <SectionContainer>
-            <Parallax y={['-20px', '20px']}>
+            {/* <Parallax y={['-20px', '20px']}> */}
               <ImgContainer
                 data-sal='slide-right'
                 data-sal-delay='0'
@@ -264,7 +264,7 @@ export default function FeaturesSection ({ data }) {
               >
                 <img src={IllustrationLeftThree} alt='Why Auctm - Illustration Rocket' aria-label='Why Auctm - Illustration Rocket' />
               </ImgContainer>
-            </Parallax>
+            {/* </Parallax> */}
             <TextContainer
               data-sal='slide-left'
               data-sal-delay='0'

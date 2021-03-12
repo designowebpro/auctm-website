@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from '@emotion/styled'
-import { Parallax } from 'react-scroll-parallax'
+// import { Parallax } from 'react-scroll-parallax'
 import Button from 'components/_ui/Button'
 import dimensions from 'styles/dimensions'
 import PropTypes from 'prop-types'
@@ -104,14 +104,14 @@ export default function FeatureDetails ({ data }) {
       <p>{featureDescription}</p>
       <FeatureInfo>
         <FeatureImgContainer>
-          <Parallax y={['-20px', '30px']}>
+          {/* <Parallax y={['-20px', '30px']}>
             <Img src={featureImage} alt={featureDescription} aria-label={featureDescription} />
-          </Parallax>
+          </Parallax> */}
           <BGCirleProductPage />
           <BGRectsProductPage />
         </FeatureImgContainer>
         <FeatureHighlightsContainer>
-          <Parallax y={['-20px', '30px']}>
+          {/* <Parallax y={['-20px', '30px']}>
             {
               featureHighlights.map((item, idx) => {
                 return <FeatureHighlight
@@ -124,6 +124,7 @@ export default function FeatureDetails ({ data }) {
             }
             <Button id={featureCtaId} type='link' to={featureCtaLink} target='_blank' rel='noopener noreferrer'>{featureCtaText}</Button>
           </Parallax>
+         */}
         </FeatureHighlightsContainer>
       </FeatureInfo>
     </FeatureDetailsContainer>

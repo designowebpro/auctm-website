@@ -7,7 +7,7 @@ import styled from '@emotion/styled'
 import dimensions from 'styles/dimensions'
 import PropTypes from 'prop-types'
 import PricingBG from 'components/_ui/PricingBG'
-import { Parallax } from 'react-scroll-parallax'
+// import { Parallax } from 'react-scroll-parallax'
 
 const HeroContainer = styled.div`
     padding: 0 12rem 0 12rem;
@@ -71,7 +71,7 @@ function HeroSection ({ data: { heroSectionTitle, pricingCardFeatures, pricingCa
             <h1 dangerouslySetInnerHTML={{ __html: title }} />
           </HeadingContainer>
           <HeroImgContainer>
-            <Parallax y={['-40px', '40px']}>
+            {/* <Parallax y={['-40px', '40px']}> */}
               <PricingCard
                 features={pricingCardFeatures}
                 pricingCardCtaText={pricingCardCtaText}
@@ -79,7 +79,7 @@ function HeroSection ({ data: { heroSectionTitle, pricingCardFeatures, pricingCa
                 pricingCardCtaLink={pricingCardCtaLink}
                 pricingCardTextLabel={pricingCardTextLabel}
               />
-            </Parallax>
+            {/* </Parallax> */}
           </HeroImgContainer>
         </HeroContainer>
       </Container>

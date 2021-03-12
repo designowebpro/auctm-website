@@ -5,7 +5,7 @@ import Container from 'components/_ui/Container'
 import styled from '@emotion/styled'
 import dimensions from 'styles/dimensions'
 import PropTypes from 'prop-types'
-import FeatureDetails, { FeatureDetailsCard } from 'components/_ui/FeatureDetails'
+// import FeatureDetails, { FeatureDetailsCard } from 'components/_ui/FeatureDetails'
 import { BGShapeLeftProduct } from 'components/_ui/BGShapeFBLeft.js'
 import { BGShapeRightProduct } from 'components/_ui/BGShapeFBRight.js'
 import { useQueryParam, StringParam } from 'use-query-params'
@@ -187,12 +187,12 @@ export default function ProductFeatures ({ data }) {
               }
             </FeaturesList>
             {/* Feature Details */}
-            <FeatureDetails data={dynamicFeatures[activeFeature]} />
+            {/* <FeatureDetails data={dynamicFeatures[activeFeature]} /> */}
             {/* Mobile View */}
             <FeaturesMobile>
-              {
+              {/* {
                 dynamicFeatures.map((item, idx) => <FeatureDetailsCard data={item} key={idx} />)
-              }
+              } */}
               <Button id={dynamicFeaturesMobileCtaId} type='link' to={dynamicFeaturesMobileCtaLink} target='_blank' rel='noopener noreferrer'>{dynamicFeaturesMobileCtaText}</Button>
             </FeaturesMobile>
           </div>
