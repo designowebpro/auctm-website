@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20" height="20" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_410" data-name="Rectangle 410" width="20" height="20" transform="translate(0 0.267)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+    <g transform="translate(-1258 -7113)">
+      <g id="Mask_Group_4" data-name="Mask Group 4" transform="translate(1258 7112.733)" clip-path="url(#clip-path-2)">
+        <g id="linkedin" transform="translate(0 0.693)">
+          <path id="Path_5072" data-name="Path 5072" d="M2.425-.025a2.235,2.235,0,1,0-.056,4.457H2.4A2.235,2.235,0,1,0,2.425-.025Zm0,0" transform="translate(0 0.025)" fill="#fff"/>
+          <path id="Path_5073" data-name="Path 5073" d="M.3,7.437H4.591v12.9H.3Zm0,0" transform="translate(-0.051 -1.219)" fill="#fff"/>
+          <path id="Path_5074" data-name="Path 5074" d="M16.447,7.073a5.371,5.371,0,0,0-3.864,2.173V7.376H8.3v12.9h4.287v-7.2a2.938,2.938,0,0,1,.141-1.046,2.347,2.347,0,0,1,2.2-1.568c1.551,0,2.172,1.183,2.172,2.917v6.9h4.287v-7.4C21.383,8.917,19.267,7.073,16.447,7.073Zm0,0" transform="translate(-1.383 -1.158)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
